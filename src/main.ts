@@ -10,7 +10,7 @@ async function main():Promise<void> {
   const app=document.querySelector<HTMLElement>('#app');if(!app)throw new Error('缺少游戏容器');
   const game=new FlightGame(), sound=new Soundscape();
   const savedWeather=readPreference('weather');
-  if(savedWeather==='rain'||savedWeather==='snow'||savedWeather==='storm')game.setWeather(savedWeather);
+  game.setWeather(savedWeather==='clear'||savedWeather==='rain'||savedWeather==='snow'||savedWeather==='storm'?savedWeather:'storm');
   let reducedFlashes=readPreference('reduced-flashes')===null?matchMedia('(prefers-reduced-motion: reduce)').matches:readPreference('reduced-flashes')==='true';
   let world:FlightWorld|undefined, stage:H.Stage|undefined, input:FlightInput|undefined;
   let theme:Theme='dawn', photo=false, photoWasPlaying=false, ready=false;

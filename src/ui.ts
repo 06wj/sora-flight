@@ -183,7 +183,7 @@ export function createUI(callbacks: UICallbacks): UIController {
   let soundEnabled = readPreference('sound') !== 'false';
   let reducedFlashes = readPreference('reduced-flashes') === 'true';
   const storedWeather = readPreference('weather');
-  let selectedWeather: WeatherMode = storedWeather === 'rain' || storedWeather === 'snow' || storedWeather === 'storm' ? storedWeather : 'clear';
+  let selectedWeather: WeatherMode = storedWeather === 'clear' || storedWeather === 'rain' || storedWeather === 'snow' || storedWeather === 'storm' ? storedWeather : 'storm';
   const weatherControl = get<HTMLElement>('.weather-control');
   const weatherTrigger = get<HTMLButtonElement>('.weather-trigger');
   const weatherPopover = get<HTMLElement>('.weather-popover');
