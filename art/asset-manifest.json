@@ -1,0 +1,705 @@
+{
+  "bird.glb": {
+    "root": "Bird",
+    "bytes": 398468,
+    "boundsMin": [
+      -2.8795,
+      -0.324,
+      -1.224
+    ],
+    "boundsMax": [
+      2.8795,
+      0.454,
+      1.6751
+    ],
+    "dimensions": [
+      5.759,
+      0.778,
+      2.8991
+    ],
+    "meshes": 6,
+    "primitives": 15,
+    "triangles": 18748,
+    "materials": [
+      "Sora_Cream",
+      "Sora_Wing",
+      "Sora_Coral",
+      "Sora_Ink",
+      "Sora_White",
+      "Sora_Gold",
+      "Sora_Feather"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Bird_Body",
+      "Bird_Outline",
+      "Wing_L_Outline",
+      "Wing_L_Surface",
+      "Wing_L",
+      "Wing_R_Outline",
+      "Wing_R_Surface",
+      "Wing_R",
+      "Bird"
+    ]
+  },
+  "building-a.glb": {
+    "root": "Sora_Building_A",
+    "bytes": 259832,
+    "boundsMin": [
+      -9.5,
+      0.0,
+      -9.5
+    ],
+    "boundsMax": [
+      9.5,
+      59.8,
+      9.5
+    ],
+    "dimensions": [
+      19.0,
+      59.8,
+      19.0
+    ],
+    "meshes": 1,
+    "primitives": 5,
+    "triangles": 4736,
+    "materials": [
+      "Sora_Facade",
+      "Sora_Porcelain",
+      "Sora_Glass",
+      "Sora_GlassLight",
+      "Sora_Roof"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Building_A_Surface",
+      "Sora_Building_A"
+    ],
+    "baseRepair": {
+      "removedHiddenOverlappingBottomCaps": 2,
+      "baseComponentsOffset": 0,
+      "glassProjection": "unchanged",
+      "hierarchyUnchanged": true,
+      "verifiedCoplanarBaseConflicts": 0
+    }
+  },
+  "building-b.glb": {
+    "root": "Sora_Building_B",
+    "bytes": 228724,
+    "boundsMin": [
+      -7.6,
+      0.0,
+      -9.3
+    ],
+    "boundsMax": [
+      7.6,
+      41.5,
+      9.3
+    ],
+    "dimensions": [
+      15.2,
+      41.5,
+      18.6
+    ],
+    "meshes": 1,
+    "primitives": 6,
+    "triangles": 3678,
+    "materials": [
+      "Sora_Facade",
+      "Sora_Porcelain",
+      "Sora_Glass",
+      "Sora_GlassLight",
+      "Sora_Roof",
+      "Sora_Coral"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Building_B_Surface",
+      "Sora_Building_B"
+    ],
+    "baseRepair": {
+      "removedHiddenOverlappingBottomCaps": 3,
+      "baseComponentsOffset": 0,
+      "glassProjection": "unchanged",
+      "hierarchyUnchanged": true,
+      "verifiedCoplanarBaseConflicts": 0
+    }
+  },
+  "building-c.glb": {
+    "root": "Sora_Building_C",
+    "bytes": 401764,
+    "boundsMin": [
+      -12.585,
+      0.0,
+      -9.35
+    ],
+    "boundsMax": [
+      12.585,
+      86.0,
+      9.35
+    ],
+    "dimensions": [
+      25.17,
+      86.0,
+      18.7
+    ],
+    "meshes": 1,
+    "primitives": 5,
+    "triangles": 7362,
+    "materials": [
+      "Sora_Facade",
+      "Sora_Porcelain",
+      "Sora_Glass",
+      "Sora_GlassLight",
+      "Sora_Roof"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Building_C_Surface",
+      "Sora_Building_C"
+    ],
+    "baseRepair": {
+      "removedHiddenOverlappingBottomCaps": 3,
+      "baseComponentsOffset": 0,
+      "glassProjection": "unchanged",
+      "hierarchyUnchanged": true,
+      "verifiedCoplanarBaseConflicts": 0
+    }
+  },
+  "building-d.glb": {
+    "root": "Sora_Building_D",
+    "bytes": 342516,
+    "boundsMin": [
+      -11.5,
+      0.0,
+      -11.8
+    ],
+    "boundsMax": [
+      11.5,
+      34.05,
+      10.639
+    ],
+    "dimensions": [
+      23.0,
+      34.05,
+      22.439
+    ],
+    "meshes": 1,
+    "primitives": 6,
+    "triangles": 6402,
+    "materials": [
+      "Sora_Facade",
+      "Sora_Porcelain",
+      "Sora_Glass",
+      "Sora_GlassLight",
+      "Sora_Roof",
+      "Sora_Coral"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Building_D_Surface",
+      "Sora_Building_D"
+    ],
+    "baseRepair": {
+      "removedHiddenOverlappingBottomCaps": 9,
+      "baseComponentsOffset": 8,
+      "glassProjection": 0.22,
+      "hierarchyUnchanged": true,
+      "verifiedCoplanarBaseConflicts": 0
+    }
+  },
+  "building-e.glb": {
+    "root": "Sora_Building_E",
+    "bytes": 212736,
+    "boundsMin": [
+      -8.6,
+      0.0,
+      -10.425
+    ],
+    "boundsMax": [
+      8.6,
+      51.85,
+      10.425
+    ],
+    "dimensions": [
+      17.2,
+      51.85,
+      20.85
+    ],
+    "meshes": 1,
+    "primitives": 5,
+    "triangles": 3860,
+    "materials": [
+      "Sora_Facade",
+      "Sora_Porcelain",
+      "Sora_Glass",
+      "Sora_GlassLight",
+      "Sora_Roof"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Building_E_Surface",
+      "Sora_Building_E"
+    ],
+    "baseRepair": {
+      "removedHiddenOverlappingBottomCaps": 2,
+      "baseComponentsOffset": 1,
+      "glassProjection": 0.22,
+      "hierarchyUnchanged": true,
+      "verifiedCoplanarBaseConflicts": 0
+    }
+  },
+  "cloud.glb": {
+    "root": "Sora_Cloud",
+    "bytes": 114360,
+    "boundsMin": [
+      -21.0,
+      -3.0,
+      -5.2
+    ],
+    "boundsMax": [
+      21.0,
+      9.0,
+      5.25
+    ],
+    "dimensions": [
+      42.0,
+      12.0,
+      10.45
+    ],
+    "meshes": 1,
+    "primitives": 1,
+    "triangles": 4400,
+    "materials": [
+      "Sora_Cloud"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Cloud_Surface",
+      "Sora_Cloud"
+    ]
+  },
+  "road.glb": {
+    "root": "Sora_Road",
+    "bytes": 59932,
+    "boundsMin": [
+      -45.0,
+      -0.65,
+      -80.0
+    ],
+    "boundsMax": [
+      45.0,
+      0.4,
+      80.0
+    ],
+    "dimensions": [
+      90.0,
+      1.05,
+      160.0
+    ],
+    "meshes": 1,
+    "primitives": 5,
+    "triangles": 792,
+    "materials": [
+      "Sora_Asphalt",
+      "Sora_Sidewalk",
+      "Sora_Porcelain",
+      "Sora_Line",
+      "Sora_Sage"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Road_Surface",
+      "Sora_Road"
+    ],
+    "canalGap": {
+      "axis": "X",
+      "openInterval": [
+        -11.8,
+        11.8
+      ],
+      "width": 23.6,
+      "fullLengthZ": 160,
+      "geometryInsideGap": 0,
+      "authoring": "Blender MCP exact Boolean difference; no runtime overlapping road beneath water."
+    }
+  },
+  "tower.glb": {
+    "root": "Sora_Tower",
+    "bytes": 213996,
+    "boundsMin": [
+      -21.0,
+      -0.25,
+      -21.0
+    ],
+    "boundsMax": [
+      21.0,
+      120.65,
+      21.0
+    ],
+    "dimensions": [
+      42.0,
+      120.9,
+      42.0
+    ],
+    "meshes": 1,
+    "primitives": 5,
+    "triangles": 3360,
+    "materials": [
+      "Sora_Tower",
+      "Sora_Porcelain",
+      "Sora_Glass",
+      "Sora_Gold",
+      "Sora_Facade"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Tower_Surface",
+      "Sora_Tower"
+    ]
+  },
+  "tree.glb": {
+    "root": "Sora_Tree",
+    "bytes": 69636,
+    "boundsMin": [
+      -3.8874,
+      0.0,
+      -3.792
+    ],
+    "boundsMax": [
+      3.7923,
+      9.206,
+      3.626
+    ],
+    "dimensions": [
+      7.6798,
+      9.206,
+      7.418
+    ],
+    "meshes": 1,
+    "primitives": 3,
+    "triangles": 708,
+    "materials": [
+      "Sora_Bark",
+      "Sora_LeafLight",
+      "Sora_Leaf"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Tree_Surface",
+      "Sora_Tree"
+    ]
+  },
+  "wind-ring.glb": {
+    "root": "Wind_Ring",
+    "bytes": 100008,
+    "boundsMin": [
+      -7.12,
+      -7.12,
+      -0.1701
+    ],
+    "boundsMax": [
+      7.12,
+      7.12,
+      0.1701
+    ],
+    "dimensions": [
+      14.24,
+      14.24,
+      0.3403
+    ],
+    "meshes": 1,
+    "primitives": 2,
+    "triangles": 1360,
+    "materials": [
+      "Sora_Gold",
+      "Sora_Cream"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Wind_Ring_Surface",
+      "Wind_Ring"
+    ]
+  },
+  "_metadata": {
+    "authoring": "All model geometry authored in a new scene in connected Blender via Blender MCP. No standalone Python model-generation scripts and no prior project models used.",
+    "source": "art/sora-assets.blend",
+    "upAxis": "Y",
+    "forwardAxis": "-Z",
+    "buildingBaseY": 0,
+    "birdWingPivots": {
+      "Wing_L": [
+        -0.28,
+        0.15,
+        -0.15
+      ],
+      "Wing_R": [
+        0.28,
+        0.15,
+        -0.15
+      ]
+    },
+    "birdWingAnimation": "Rotate Wing_L and Wing_R about game Z with opposite signs.",
+    "birdOutlines": "Three expanded inverted hull surfaces require glTF default backface culling (doubleSided=false).",
+    "signage": "Hiragino Sans GB text curves for 風 and 光町珈琲 converted to mesh. No font files distributed.",
+    "previewImages": [
+      "art/bird-review.png",
+      "art/city-review.png",
+      "art/vehicles-review.png",
+      "art/bridge-review.png",
+      "art/rail-review.png",
+      "art/train-review.png",
+      "art/canal-review.png",
+      "art/base-repair-review.png"
+    ],
+    "vehicles": "Both face -Z, tires meet ground Y=0; front lamps face -Z.",
+    "bridge": "25m span along X; stair approaches land at Y=0; main deck height Y=1.775, outer rail posts peak Y=3.33.",
+    "rail": "Viaduct X180, deck top Y15.25, running rail top Y15.55, overhead contact wire Y20.3, gantry top Y21.31; track centers Z +/- 2.65. Train faces +X and wheels bottomY0; place atY15.55. Lamp_Glow node and Sora_Lamp_Glow emissive material.",
+    "roadCanal": "Road now has a true open central 23.6m slot, |X|<11.8, full Z160 length. Asphalt top localY=-.05; root offset-.02 gives worldY=-.07. Road tiled on 160m centers. Suggested waterY=-.38, world foundationY=-1.",
+    "buildingBaseRepair": "All five: removed only overlapping downward base caps at Y0. D/E ground floor glass extended .22m outside main facade to eliminate coplanar/near-coplanar lower walls. D entrance columns front moved toY10.45 in Blender to remain .23m proud of glass; global bounds/hierarchy unchanged."
+  },
+  "urban-details.glb": {
+    "root": "Sora_Urban_Vehicle",
+    "bytes": 134608,
+    "boundsMin": [
+      -1.18,
+      0.0,
+      -2.3025
+    ],
+    "boundsMax": [
+      1.18,
+      1.94,
+      2.2195
+    ],
+    "dimensions": [
+      2.36,
+      1.94,
+      4.522
+    ],
+    "meshes": 1,
+    "primitives": 6,
+    "triangles": 1928,
+    "materials": [
+      "Sora_Glass",
+      "Sora_Porcelain",
+      "Sora_Ink",
+      "Sora_GlassLight",
+      "Sora_Cream",
+      "Sora_Coral"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Urban_Vehicle_Surface",
+      "Sora_Urban_Vehicle"
+    ]
+  },
+  "car-red.glb": {
+    "root": "Sora_Coral_Car",
+    "bytes": 91060,
+    "boundsMin": [
+      -1.065,
+      0.0,
+      -2.125
+    ],
+    "boundsMax": [
+      1.065,
+      1.5,
+      2.071
+    ],
+    "dimensions": [
+      2.13,
+      1.5,
+      4.196
+    ],
+    "meshes": 1,
+    "primitives": 6,
+    "triangles": 1308,
+    "materials": [
+      "Sora_Coral",
+      "Sora_Ink",
+      "Sora_GlassLight",
+      "Sora_Porcelain",
+      "Sora_Cream",
+      "Sora_Gold"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Coral_Car_Surface",
+      "Sora_Coral_Car"
+    ]
+  },
+  "bridge.glb": {
+    "root": "Sora_Canal_Bridge",
+    "bytes": 85528,
+    "boundsMin": [
+      -12.505,
+      0.0,
+      -2.835
+    ],
+    "boundsMax": [
+      12.505,
+      3.33,
+      2.835
+    ],
+    "dimensions": [
+      25.01,
+      3.33,
+      5.67
+    ],
+    "meshes": 1,
+    "primitives": 5,
+    "triangles": 1200,
+    "materials": [
+      "Sora_Porcelain",
+      "Sora_Facade",
+      "Sora_Glass",
+      "Sora_Gold",
+      "Sora_Roof"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Canal_Bridge_Surface",
+      "Sora_Canal_Bridge"
+    ]
+  },
+  "rail-viaduct.glb": {
+    "root": "Sora_Rail_Viaduct",
+    "bytes": 288260,
+    "boundsMin": [
+      -90.07,
+      0.0,
+      -6.0
+    ],
+    "boundsMax": [
+      90.07,
+      21.31,
+      6.0
+    ],
+    "dimensions": [
+      180.14,
+      21.31,
+      12.0
+    ],
+    "meshes": 1,
+    "primitives": 4,
+    "triangles": 4124,
+    "materials": [
+      "Sora_Porcelain",
+      "Sora_Facade",
+      "Sora_Roof",
+      "Sora_RailMetal"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Rail_Viaduct_Surface",
+      "Sora_Rail_Viaduct"
+    ]
+  },
+  "train.glb": {
+    "root": "Sora_Commuter_Train",
+    "bytes": 635720,
+    "boundsMin": [
+      -22.51,
+      0.0,
+      -1.6105
+    ],
+    "boundsMax": [
+      22.51,
+      3.89,
+      1.6105
+    ],
+    "dimensions": [
+      45.02,
+      3.89,
+      3.221
+    ],
+    "meshes": 1,
+    "primitives": 10,
+    "triangles": 9432,
+    "materials": [
+      "Sora_Porcelain",
+      "Sora_Glass",
+      "Sora_Ink",
+      "Sora_Facade",
+      "Sora_GlassLight",
+      "Sora_Roof",
+      "Sora_RailMetal",
+      "Sora_Gold",
+      "Sora_Coral",
+      "Sora_Cream"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Sora_Commuter_Train_Surface",
+      "Sora_Commuter_Train"
+    ]
+  },
+  "streetlamp.glb": {
+    "root": "Sora_Streetlamp",
+    "bytes": 60268,
+    "boundsMin": [
+      -2.11,
+      0.0,
+      -0.39
+    ],
+    "boundsMax": [
+      2.11,
+      6.4039,
+      0.39
+    ],
+    "dimensions": [
+      4.22,
+      6.4039,
+      0.78
+    ],
+    "meshes": 2,
+    "primitives": 4,
+    "triangles": 1180,
+    "materials": [
+      "Sora_Lamp_Glow",
+      "Sora_Porcelain",
+      "Sora_Roof",
+      "Sora_RailMetal"
+    ],
+    "scenes": [
+      "Sora_Assets"
+    ],
+    "nodes": [
+      "Lamp_Glow",
+      "Streetlamp_Pole",
+      "Sora_Streetlamp"
+    ]
+  }
+}
